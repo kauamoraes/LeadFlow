@@ -40,7 +40,7 @@ function AutomacoesPage() {
             </p>
           </div>
           <Button onClick={() => toast.info("Builder em breve!")}>
-            <Plus className="h-4 w-4" /> Criar automação
+            <Plus className="h-4 w-4" /> Criar automações
           </Button>
         </header>
 
