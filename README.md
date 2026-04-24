@@ -601,6 +601,7 @@ Para dúvidas ou problemas:
 
 - Abra uma issue no GitHub
 - Entre em contato através do email do projeto
+- Ou por esse email: kauamoraesvieira2021@gmail.com
 
 ---
 
