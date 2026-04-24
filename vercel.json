@@ -1,1 +1,17 @@
-{}
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/client",
+  "serverlessFunctionRegion": "us-east-1",
+  "framework": "vite",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "routes": [
+    {
+      "src": "/assets/.*",
+      "headers": { "cache-control": "public, max-age=31536000, immutable" },
+      "continue": true
+    },
+    { "src": "/(.*)", "dest": "dist/server/index.js" }
+  ]
+}
